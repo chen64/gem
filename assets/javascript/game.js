@@ -22,7 +22,7 @@ $(document).ready(function(){
         $("#points").text(total);
         if(total == number)
         {
-            win++;
+            wins++;
             $("#wins").text(wins);
             reset();
             
@@ -40,11 +40,9 @@ $(document).ready(function(){
         $("#points").text(total);
         if(total == number)
         {
-            win++;
+            wins++;
             $("#wins").text(wins);
             reset();
-           
-            
         }
         else if(total > number)
         {
@@ -59,11 +57,9 @@ $(document).ready(function(){
         $("#points").text(total);
         if(total == number)
         {
-            win++;
+            wins++;
             $("#wins").text(wins);
             reset();
-        
-            
         }
         else if(total > number)
         {
@@ -78,7 +74,7 @@ $(document).ready(function(){
         $("#points").text(total);
         if(total == number)
         {
-            win++;
+            wins++;
             $("#wins").text(wins);
             reset();
         }
