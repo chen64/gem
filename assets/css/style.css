@@ -1,0 +1,32 @@
+
+.row{
+    padding: 5px;
+}
+
+h1{
+    background-color: orange;
+}
+
+#instruction{
+    background-color: peachpuff;
+}
+
+#answerBox{
+    background-color: darkgreen;
+    height: 200px;
+    width: 300px;
+}
+
+#boxCounter{
+    background-color: turquoise;
+    height: 200px;
+}
+
+#score{
+    background-color: lawngreen;
+    height: 100px;
+}
+
+p{
+    font-size: 20px;
+}
